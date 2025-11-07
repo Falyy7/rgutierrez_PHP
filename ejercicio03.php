@@ -25,7 +25,7 @@
     <!--Insertar código PHP en HTML -->
     <?php
     #Podemos definir código PHP en cualquier punto del fichero.
-    $direccion= "ejemplo02";
+    $direccion= "ejercicio02";
     $extension =".php";
     $imagen = "logo.png";
     ?>
