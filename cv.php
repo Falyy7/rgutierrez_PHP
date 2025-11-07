@@ -12,9 +12,6 @@
             padding: 20px;
             
         }
-        p{
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
@@ -39,18 +36,18 @@
 
     <h1> CURRICULUM VITAE </h1>
     <h2> Datos personales </h2>
-    <p> Nombre: <?php echo $nombre ?></p>
-    <p> Apellidos: <?php echo $apellidos ?></p>
-    <p> Fecha de nacimiento: <?php echo $fechaDeNacimiento ?></p>
-    <p> Foto? <?php echo $fotoPersonal ?></p>
+    <p> <strong> Nombre: </strong> <?php echo $nombre ?></p>
+    <p> <strong> Apellidos: </strong> <?php echo $apellidos ?></p>
+    <p> <strong> Fecha de nacimiento:</strong> <?php echo $fechaDeNacimiento ?></p>
+    <p> <strong> Foto? </strong> <?php echo $fotoPersonal ?></p>
     <h2> Estudios</h2>
-    <p> Último estudio cursado: <?php echo $ultimoEstudio ?></p>
-    <p> Centro académico: <?php echo $centroAcademico ?></p>
-    <p> Fecha de obtención del título: <?php echo $fechaObtencionTitulo ?></p>
+    <p> <strong> Último estudio cursado: </strong><?php echo $ultimoEstudio ?></p>
+    <p> <strong> Centro académico: </strong><?php echo $centroAcademico ?></p>
+    <p> <strong> Fecha de obtención del título: </strong><?php echo $fechaObtencionTitulo ?></p>
     <h2> Experiencia laboral</h2>
-    <p> Último empleo: <?php echo $ultimoTrabajo ?></p>
-    <p> Nombre de la empresa: <?php echo $empresa ?></p>
-    <p> Años trabjados:  <?php echo $anosTrabajados ?></p>
+    <p> <strong> Último empleo: </strong><?php echo $ultimoTrabajo ?></p>
+    <p> <strong> Nombre de la empresa: </strong><?php echo $empresa ?></p>
+    <p> <strong> Años trabjados:  </strong><?php echo $anosTrabajados ?></p>
     
 </body>
 </html>
