@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 09: Formulario de fechas
+    </title>
 </head>
 <body>
     <form action="ejercicio09_resultado.php" method = "post">
