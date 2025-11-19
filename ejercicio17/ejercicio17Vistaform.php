@@ -8,9 +8,9 @@
 <body>
     <h1> LISTA DE TAREAS</h1><br><br>
 
-    <form action="" method="post">
+    <form action="ejercicio17VistaTareas.php" method="post">
         <label for="nuevaTarea"> Nueva tarea: </label>
-        <input type="text" required>
+        <input type="text" name = "tarea" value = "tarea" required>
         
         <button type="submit" >Añadir</button>
     </form>
