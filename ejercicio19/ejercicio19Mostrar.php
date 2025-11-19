@@ -15,13 +15,13 @@
      
 
         if(!isset($_COOKIE['lista'])){
+            $primerItem = $_POST['producto'] . "  " . $_POST['cantidad'] . "<br>";
+            setcookie ("lista", $primerItem, time() + 50);
 
-            setcookie ("lista", "", time() + 50);
-
-        }else if ($_SERVER["REQUEST_METHOD"] === "POST"){
+        }else{
             $listaCompra = $_COOKIE['lista'];
 
-            $listaCompra .= $_POST['producto'] . "  " . $_POST['cantidad'];
+            $listaCompra .= $_POST['producto'] . ": "  . $_POST['cantidad'];
 
             setcookie("lista", $listaCompra . "<br>", time() + 50);
 
